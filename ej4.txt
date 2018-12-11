@@ -1,0 +1,1 @@
+Muestra los Strings pero no los Integers. Estos estan en binario.
