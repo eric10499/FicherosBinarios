@@ -1,3 +1,29 @@
+/*
+ * ejercicio1.java
+ * 
+ * Copyright 2018 ERIC <ERIC@DESKTOP-5T1N085>
+ * 
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+ * MA 02110-1301, USA.
+ * 
+ * Escribe un programa que inserte datos en “FicherosDatos.dat”. Los datos los tomará de dos arrays definidos en el propio programa. Uno contendrá los nombres de una serie de personas y el otro sus edades. Se irá recorriendo los arrays e iremos escribiendo en el fichero el nombre (mediante el método writeUTF(String str) y la edad (writeInt (int v)). NOTA: si queremos añadir bytes al final del fichero (FicheroDatos.dat) se puede usar el siguiente constructor: FileOutputStream fileout = new FileOutputStream (fichero, true)
+ * 
+ * Fet per Eric Visier Sánchez
+ * 
+ */
+
 package FicherosBinarios;
 
 import java.io.DataOutputStream;
