@@ -1,0 +1,9 @@
+FileInputStream : Esta clase trabaja con flujos de bytes y crea un enlace entre el flujo de bytes y el fichero.
+DataOutputStream : se utiliza para leer y escribir datos de tipos primitivos: int, float, long, etc. 
+Para abrir un objeto DataInputStream se utilizan los mismos métodos que para FileInputStream.
+File fichero = new File (“FicheroDatos.dat”); 
+FileInputStream filein= new FileInputStream (fichero); 
+DataInputStream dataIS = new DataInputStream (filein);
+
+Además, a traves de DataOutputStream podemos acceder a estos datos primitivos, cosa que no pasava con FileInputStream. Pero necesitamos de un objeto 
+FileInputStream para hacerlo.
